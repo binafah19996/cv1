@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(249, 242, 232);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* *{box-sizing: border-box;} */
+
+.navbar{
+    padding-left: 70%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.address{
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+/* About Section */
+
+#about_me{
+    width: 80%;
+    height: auto;
+    background-color: rgb(251, 248, 246);
+    margin: 0 10%;
+    
+    padding: 15px 10px;
+}
+
+.about_left{
+	//position:absolute;
+	//top:5%;
+    width: 30%;
+    float: left;
+    padding: 3% 0 0 3%;
+    
+}
+
+.about_right{
+    width: 50%;
+    display: inline-block;
+    padding: 0 0 0 10%;
+}
+
+/* Skils Section */
+#skills{
+    width: 80%;
+    height: auto;
+    background-color: rgb(237, 233, 230);
+    margin: 0 10%;
+    line-height: 2rem;
+    padding: 15px 10px;   
+}
+
+#cv{
+    width: 80%;
+    height: auto;
+    background-color: rgb(251, 248, 246);
+    margin: 0 10%;
+    line-height: 2rem;
+    padding: 15px 10px;
+}
+
+#contact{
+    width: 80%;
+    height: auto;
+    background-color: rgb(237, 233, 230);
+    margin: 0 10%;
+    padding: 15px 10px;
+}
+
+input[type=text], input[type=textarea], input[type=email]{
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    padding: 10px;
+    width: 80%;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]{
+    background-color: rgb(209, 207, 206);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(75, 2, 2);
+    border: none;
+}
+
+input[type=submit]:hover{
+    background-color: antiquewhite;
+}
